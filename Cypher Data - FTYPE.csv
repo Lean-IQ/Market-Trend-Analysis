@@ -1,4 +1,4 @@
-ID,FLOWTYPE,FROM,TO,LEVEL
+FLOWNO,FLOWTYPE,FROM,TO,LEVEL
 1,Debt,Maintenance,Assembly,2
 2,Debt,Procurement,Assembly,2
 3,Debt,Procurement,Controlling,1
