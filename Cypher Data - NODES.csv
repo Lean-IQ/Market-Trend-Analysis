@@ -1,0 +1,95 @@
+LABEL:string,ID:string,CATEGORY:string,INVEST:int,OPS-COST:int,UNIT:string,AVAILABILITY:int,EFFECTIVENESS:int,QUALITY:int
+CNC Machinery,AM0001,Asset Management,"150.000,00","130,00",EUR per Hour and Unit,"0,75","0,75","0,85"
+Hand-Tools,AM0002,Asset Management,"150,00","1,00",EUR per Unit,"0,95","0,95","0,85"
+"Flurförderfahrzeug, Stapler",AM0003,Asset Management,"18.000,00","10,00",EUR per Unit,"0,75","0,80","0,85"
+"Flurförderfahrzeug, Ameise",AM0004,Asset Management,"3.000,00","2,00",EUR per Unit,"0,85","0,75","0,75"
+"Hebezeuge, Deckenkran",AM0005,Asset Management,"80.000,00","5,00",EUR per Unit,"0,85","0,75","0,85"
+"Hebezeuge, Montagekran",AM0006,Asset Management,"5.000,00","4,00",EUR per Unit,"0,75","0,75","0,85"
+"Meeting, Stand-up",CO0001,Communication,,"50,00",EUR per Hour and Participant,"0,85","0,95","0,60"
+"Meeting, Informal",CO0002,Communication,,"70,00",EUR per Hour and Participant,"0,95","0,60","0,75"
+"Meeting, Cross-Functional",CO0003,Communication,,"80,00",EUR per Hour and Participant,"1,00","0,85","0,90"
+Strategy Room,CO0004,Communication,,"110,00",EUR per Hour and Participant,"1,00","1,00","1,00"
+Emergency Room,CO0005,Communication,,"180,00",EUR per Hour and Participant,"1,00","1,00","0,95"
+Corporate Governance,GM0001,Strategy,,,,,,
+Environmental Social Governance,GM0002,Strategy,,,,,,
+Human Resources,GM0003,Strategy,,,,,,
+Work and Health Management,GM0004,Strategy,,,,,,
+Controlling,GM0005,Strategy,,,,,,
+Property Management,GM0006,Strategy,,,,,,
+Asset Management,GM0007,Strategy,,,,,,
+Information Technology,GM0008,Strategy,,,,,,
+Utility Management,GM0009,Strategy,,,,,,
+Communication,GM0010,Strategy,,,,,,
+Recruiting,HR0001,Human Resources,"3.000,00",,EUR per FTE,,,
+"Training, Continued Education",HR0002,Human Resources,"1.500,00",,EUR per FTE,,,
+"Long Term Storage, ERP",IT0001,Information Technology,"500.000,00","5.000,00",per Seat,"0,95","0,95","0,95"
+"Long Term Storage, Data",IT0002,Information Technology,"8.000,00","150,00",per Month,"0,95","0,95","0,95"
+"Long Term Storage, CRM",IT0003,Information Technology,"25.000,00","50,00",per Seat,"0,95","0,95","0,95"
+"Machine Learning, Data Stream",IT0004,Information Technology,"5.000,00","20,00",per Seat,"0,95","0,95","0,95"
+"Machine Learning, Digital Twin",IT0005,Information Technology,"800.000,00","500,00",per Unit,"0,95","0,95","0,95"
+"Business Intelligence, PLM",IT0006,Information Technology,"15.000,00","1.800,00",per Seat,"0,95","0,95","0,95"
+"Business Intelligence, MES",IT0007,Information Technology,"400.000,00","1.500,00",per Seat,"0,95","0,95","0,95"
+"Business Intelligence, IIoT",IT0008,Information Technology,"15.000,00","300,00",per Seat,"0,95","0,95","0,95"
+"Business Intelligence, CAD",IT0009,Information Technology,"30.000,00","500,00",per Seat,"0,95","0,95","0,95"
+"Business Intelligence, CAM",IT0010,Information Technology,"50.000,00","4.000,00",per Seat,"0,95","0,95","0,95"
+"Business Intelligence, SCADA/DCS",IT0011,Information Technology,"100.000,00","500,00",per Seat,"0,95","0,95","0,95"
+"Business Intelligence, PLC/HMI",IT0012,Information Technology,"5.000,00","25,00",per Seat,"0,95","0,95","0,95"
+Data Historian,IT0013,Information Technology,"2.000,00","50,00",per Unit,"0,95","0,95","0,95"
+"Data Aggregation, IoT-Edge",IT0014,Information Technology,"8.000,00","15,00",per Unit,"0,95","0,95","0,95"
+"Data Aggregation, MS Windows",IT0015,Information Technology,"500,00","15,00",per Seat,"0,95","0,95","0,95"
+"Data Aggregation, MS Project",IT0016,Information Technology,"500,00","15,00",per Seat,"0,95","0,95","0,95"
+Cyber Security,IT0017,Information Technology,"10.000,00","15,00",per Seat,"0,98","0,98","0,98"
+Sales,MA0001,Market,,,,,,
+Customer,MA0002,Market,,,,,,
+Marketing,MA0003,Market,,,,,,
+North America,MA0004,Market,,,,,,
+South America,MA0005,Market,,,,,,
+Europe Central,MA0006,Market,,,,,,
+Europe East,MA0007,Market,,,,,,
+Europe South,MA0008,Market,,,,,,
+Africa,MA0009,Market,,,,,,
+Middle East,MA0010,Market,,,,,,
+"Asia (excl. India, China, Japan)",MA0011,Market,,,,,,
+"Asia, India",MA0012,Market,,,,,,
+"Asia, China",MA0013,Market,,,,,,
+Asia Japan,MA0014,Market,,,,,,
+Australia,MA0015,Market,,,,,,
+Project Management,OP0001,Operations,,"28,07",EUR per Hour,"0,83","0,94","0,85"
+Research & Development,OP0002,Operations,,"38,06",EUR per Hour,"0,15","0,96","0,85"
+Procurement,OP0003,Operations,,"30,42",EUR per Hour,"0,70","0,56","0,85"
+Logistics,OP0004,Operations,,"20,63",EUR per Hour,"0,28","0,99","0,85"
+Distribution,OP0005,Operations,,"19,64",EUR per Hour,"0,76","0,71","0,85"
+Manufacturing,OP0006,Operations,,"27,00",EUR per Hour,"0,73","0,81","0,85"
+Assembly,OP0007,Operations,,"26,76",EUR per Hour,"0,30","0,73","0,85"
+Aftermarket Service,OP0008,Operations,,"20,73",EUR per Hour,"0,19","0,87","0,85"
+Quality Management,OP0009,Operations,,"33,33",EUR per Hour,"0,18","1,00","0,85"
+Maintenance,OP0010,Operations,,"18,13",EUR per Hour,"0,83","0,99","0,85"
+Office,PM0001,Property Management,,"40,00",EUR pro qm,"1,00","1,00","1,00"
+Shopfloor,PM0002,Property Management,,"25,00",EUR pro qm,"1,00","1,00","1,00"
+Lab,PM0003,Property Management,,"35,00",EUR pro qm,"1,00","1,00","1,00"
+Warehouse,PM0004,Property Management,,"25,00",EUR pro qm,"1,00","1,00","1,00"
+Supplier,SU0001,Supply,,,,,,
+Contractor,SU0002,Supply,,,,,,
+Tier-1,SU0003,Supply,,,,"0,75","0,95","0,90"
+Tier-2,SU0004,Supply,,,,"0,85","0,85","0,90"
+Tier-3,SU0005,Supply,,,,"0,95","0,75","0,90"
+Semiconductor,SU0006,Supply,,,,"0,40","0,85","0,90"
+Electronics,SU0007,Supply,,,,"0,40","0,85","0,90"
+Copper,SU0008,Supply,,,,"0,60","0,85","0,90"
+Steel,SU0009,Supply,,,,"0,70","0,85","0,90"
+Aluminum,SU0010,Supply,,,,"0,70","0,85","0,90"
+Bearings,SU0011,Supply,,,,"0,60","0,85","0,90"
+"Machinery, Appliances",SU0012,Supply,,,,"0,60","0,85","0,90"
+Automation,SU0013,Supply,,,,"0,40","0,85","0,90"
+Gearbox,SU0014,Supply,,,,"0,40","0,85","0,90"
+"Software, Analytics",SU0015,Supply,,,,"0,70","0,85","0,90"
+Sensors,SU0016,Supply,,,,"0,50","0,85","0,90"
+Hydraulics,SU0017,Supply,,,,"0,60","0,85","0,90"
+Pneumatics,SU0018,Supply,,,,"0,60","0,85","0,90"
+"Telecommunication, Data Transmission",SU0019,Supply,,,,"0,50","0,85","0,90"
+Robotics,SU0020,Supply,,,,"0,40","0,85","0,90"
+Motion Technology,SU0021,Supply,,,,"0,40","0,85","0,90"
+"Utilities, Heat",UM0001,Utility Management,,"5,00",EUR per square meter,"0,95","0,75","0,85"
+"Utilities, Air",UM0002,Utility Management,,"0,30",EUR per 1.000 cubic meter,"0,95","0,60","0,80"
+"Utilities, Water",UM0003,Utility Management,,"1,77",EUR per cubic meter,"0,95","0,95","0,95"
+"Utilities, Power",UM0004,Utility Management,,"0,30",EUR pro kWh,"0,95","0,95","0,95"
